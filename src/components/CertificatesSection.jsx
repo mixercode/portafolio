@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import Modal from "./ModalCertificates";
 import { CERTIFICATES_DATA } from "../data/certificates";
 import SectionCard from "./SectionCard";
@@ -9,6 +9,11 @@ export default function CertificatesSection() {
   const openModal = (cert) => setSelectedCert(cert);
   const closeModal = () => setSelectedCert(null);
 
+  const sortedData = useMemo(() => {
+    if (!Array.isArray(CERTIFICATES_DATA)) return [];
+    return [...CERTIFICATES_DATA].sort((a, b) => b.id - a.id);
+  }, []);
+
   return (
     <>
       <div className="flex flex-row items-center gap-4 mt-10 mb-6">
@@ -18,7 +23,7 @@ export default function CertificatesSection() {
         />
         <h2 className="text-3xl font-bold text-gray-100 ">Certificados</h2>
       </div>
-      <SectionCard data={CERTIFICATES_DATA} openModal={openModal} hasBlur />
+      <SectionCard data={sortedData} openModal={openModal} hasBlur />
 
       <Modal
         isOpen={!!selectedCert}
