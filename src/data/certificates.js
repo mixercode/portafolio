@@ -112,4 +112,10 @@ export const CERTIFICATES_DATA = [
     previewUrl:
       "/thumbnails/certificates/Curso de ciberseguridad y hacking etico.png",
   },
+  {
+    id: 19,
+    title: "Curso de SEO para IA y Google",
+    url: "/certificados/Certificado-Jose-Miguel-Flores-Flores-k2sqqbc1.pdf",
+    previewUrl: "/thumbnails/certificates/seo-para-ia.png",
+  },
 ];
