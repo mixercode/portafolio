@@ -118,4 +118,10 @@ export const CERTIFICATES_DATA = [
     url: "/certificados/Certificado-Jose-Miguel-Flores-Flores-k2sqqbc1.pdf",
     previewUrl: "/thumbnails/certificates/seo-para-ia.png",
   },
+  {
+    id: 20,
+    title: "Curso de IA. De 0 a agentes",
+    url: "/certificados/Certificado-Jose-Miguel-Flores-Flores-ikdylkh4.pdf",
+    previewUrl: "/thumbnails/certificates/Curso_de_IA_De_0_a_Agente.png",
+  },
 ];
