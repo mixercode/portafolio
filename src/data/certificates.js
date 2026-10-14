@@ -124,4 +124,11 @@ export const CERTIFICATES_DATA = [
     url: "/certificados/Certificado-Jose-Miguel-Flores-Flores-ikdylkh4.pdf",
     previewUrl: "/thumbnails/certificates/Curso_de_IA_De_0_a_Agente.png",
   },
+  {
+    id: 21,
+    title: "Curso de desrollo con IA: Programa con agentes",
+    url: "/certificados/Certificado-Jose-Miguel-Flores-Flores-jep7mupk.pdf",
+    previewUrl:
+      "/thumbnails/certificates/Certificado-Jose-Miguel-Flores-Flores-jep7mupk.png",
+  },
 ];
