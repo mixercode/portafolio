@@ -46,7 +46,7 @@ export const GASOLINERIA_DATA = [
   },
   {
     id: 3,
-    title: "Aplicacion movile",
+    title: "Aplicacion mobile",
     description:
       "Aplicación móvil nativa diseñada para ofrecer una experiencia de usuario ágil y eficiente en el punto de venta. Esta app permite a los clientes de la estación de servicio gestionar su lealtad directamente desde su dispositivo, facilitando el canje de puntos por productos de forma presencial mediante una interfaz optimizada para condiciones de movilidad.",
     images: [

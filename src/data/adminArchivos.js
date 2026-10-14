@@ -52,7 +52,7 @@ export const ADMIN_ARCHIVOS_DATA = [
   },
   {
     id: 3,
-    title: "Aplicacion movile",
+    title: "Aplicacion mobile",
     description:
       "Solución móvil de alto rendimiento que optimiza el flujo de trabajo entre el despacho y el campo. Desarrollé una interfaz intuitiva con React Native que permite la carga, previsualización y categorización de archivos contables con un solo toque. El sistema utiliza URLs firmadas de AWS para garantizar una visualización segura y rápida, minimizando el consumo de datos y asegurando que la última versión de cada documento fiscal o legal esté siempre disponible para su revisión.",
     images: [
