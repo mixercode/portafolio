@@ -1,5 +1,5 @@
 import NavigationCard from "../components/NavigationCard";
-import DeveloperSkillsCard from "../components/developerSkillsCard";
+import DeveloperSkillsCard from "../components/DeveloperSkillsCard";
 import TecnologyIconsCard from "../components/TechnologyIconsCard";
 import { ABOUT_ME_DATA } from "../data/portafolioData";
 
